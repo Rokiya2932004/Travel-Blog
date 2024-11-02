@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(../assits/Rectangle-1-1.png);
+  background-position: center;
+  background-size: cover;
+}
+.login-wrapper {
+  width: 450px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 8px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.input-field input {
+  width: 100%;
+  height: 40px;
+}
+.SignIn {
+  background: #5F7288;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.SignIn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: #fff;
+}
+.Link-sign{
+    margin-top: 20px;
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+.SignUp {
+    background: #5F7288;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.SignUp:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border-color: #fff;
+  }

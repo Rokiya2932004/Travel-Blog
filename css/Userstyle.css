@@ -1,0 +1,99 @@
+
+.sidebarpage{
+  width: 280px;
+  transition: 0.5s;
+}
+.small-sidebar {
+  width: 80px !important;
+  transition: 0.5s;
+}
+.icon-bar {
+  width: 130px;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.logo{
+  width: 80px;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  display: none;
+}
+.pages-icon{  
+  vertical-align: -.125em;
+}
+.open-bar-icon {
+  color: #f4f7fa;
+  transform: rotate(180deg); 
+}
+.close-bar-icon{
+  position: absolute;
+  right: 15px;
+}
+.close-bar-icon,.open-bar-icon {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.sidebar-text{
+  color: #e3e3e3;
+}
+.nav-pills .nav-link.active {
+  color: #e3e3e3;
+  background-color: #3F75FC; 
+  transition: background-color 0.4s;
+}
+.spaceDiv{
+  flex-shrink: 0;
+  width: 1.5rem;
+  min-height: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0);
+    border: solid rgba(255, 255, 255, 0);
+    border-width: 1px 0;
+}
+/* @media screen and (max-width:600px){
+  .sidebarpage{
+    width: 100%!important;
+    position: fixed!important;
+    z-index: 999999!important;
+    min-height: 100%!important;
+  background-color: rgb(0, 0, 0);
+
+  }
+} */
+
+/*--------------- Start User-Setting --------------------*/
+.userBlogs{
+  background-color: rgba(215, 212, 212, 0.08)!important;
+}
+.save .btn {
+  background-color: #3F75FC;
+  color: white;
+}
+.save .btn:hover {
+  background-color: #2d96ecde;
+  border-color: rgb(91, 175, 236);
+}
+/*--------------- Start My Blog --------------------*/
+.userComment{
+  list-style: none!important;
+}
+.userComment li .card{
+  min-height: 400px; 
+  display: flex;
+  flex-direction: column;
+}
+.userComment li .card img{
+ padding: 5px;
+height: 200px;
+}
+.userComment li .card-body{
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userComment li .card-title {
+color: #1a46b3;
+}

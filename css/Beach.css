@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+#Beaches{
+ margin-top: 90px!important;   
+}
+#Beaches .carousel-item img {
+  height: 90vh;
+  object-fit: cover;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  width: 25px;
+  height: 25px;
+}
+#Beaches .map-section {
+  width: 100%;
+  padding: 20px;
+}
+#Beaches .description {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Beaches .description h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+#Beaches .description p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+#Beaches .stories-carousel {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#Beaches #Stories-tips {
+  background-color: #f7f8fa;
+  padding-top: 40px;
+}
+
+#Beaches #Stories-tips h1 {
+  font-size: 37px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#Beaches .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#Beaches .card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  width: 300px;
+  margin: 20px;
+  flex: 0 0 calc(25% - 40px);
+}
+
+#Beaches .card-image img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#Beaches .card-text {
+  padding: 20px;
+}
+
+#Beaches .card-category a {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  color: #0026ab;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background-color: #f0f2fa;
+}
+
+#Beaches .TextLink a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#Beaches .TextLink a:hover {
+  color: #4e7ffe;
+}
+
+#Beaches .TextLink p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: gray;
+  line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  #Beaches .card {
+    flex: 0 0 calc(25% - 40px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #Beaches .card {
+    flex: 0 0 calc(50% - 40px);
+  }
+}
+
+@media (max-width: 767px) {
+  #Beaches .row {
+    justify-content: center;
+  }
+
+  #Beaches .card {
+    flex: 0 0 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*start angles*/
+
+#Beaches .card-angeles {
+  max-width: 1200px;
+  margin: 0 12px;
+  /* padding: 20px; */
+}
+
+#Beaches .card-angeles h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#Beaches .card-angeles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+#Beaches .card-los {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+#Beaches .card-los:hover {
+  transform: translateY(-10px);
+}
+
+#Beaches .card-los img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#Beaches .details {
+  padding: 20px;
+}
+
+#Beaches .details h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#Beaches .details .location {
+  color: #777;
+  font-size: 14px;
+}
+
+#Beaches .details p {
+  margin-bottom: 10px;
+}
+
+#Beaches .details .rating {
+  font-weight: bold;
+  color: #ffbf00;
+}
+
+/* Start Of Navbar */
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.dropdown-user-dashboard {
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.dropdown-user-dashboard:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  /* زيادة الظل عند التمرير */
+  transform: translateY(-2px);
+}
+
+.dropdown-user-dashboard .fas {
+  font-size: 18px;
+  color: #555555;
+}
+
+.dropdown-user-dashboard a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  font-family: "Arial", sans-serif;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.159);
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.navbar-toggler {
+  order: 1;
+}
+
+.navbar-brand {
+  order: 0;
+  margin: 0 auto;
+}
+
+.dropdown-user-dashboard {
+  order: 2;
+  margin-left: auto;
+}
+
+.navbar-collapse ul li {
+  margin-right: 50px;
+}
+
+.navbar-collapse ul li a {
+  font-size: 17px;
+  font-weight: 650;
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+}
+
+.navbar-collapse .dropdown-menu {
+  margin-top: 20px;
+}
+
+.navbar-collapse .dropdown-menu li:hover a {
+  color: #3b71fe !important;
+}
+
+.navbar-collapse .dropdown-menu li {
+  padding-top: 6px;
+}
+
+.navbar-collapse .dropdown-menu li a {
+  font-size: 17px;
+  font-weight: 300;
+  color: black !important;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+}
+.SignUp-Butt-nav {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 650;
+  color: white;
+}
+@media (max-width: 992px) {
+  nav {
+    /* margin-top: 15px; */
+  }
+
+  .navbar-toggler {
+    order: 1;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown-user-dashboard {
+    order: 2;
+  }
+
+  .navbar-collapse .dropdown-menu {
+    border: none !important;
+    margin-top: 0 !important;
+  }
+
+  .navbar-collapse {
+    margin-top: 20px;
+    margin-left: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+}
+
+/* Footer */
+.footer {
+  padding-top: 50px;
+  background-color: #f3f4f5;
+}
+.footer h2 {
+  color: #232323;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.footer .row p {
+  color: #757575;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.footer .icons img {
+  width: 50px;
+}

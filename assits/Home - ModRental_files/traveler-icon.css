@@ -1,0 +1,697 @@
+@font-face {
+  font-family: 'traveler-icon';
+  src:  url('../fonts/traveler-icon.eot?cj10r');
+  src:  url('../fonts/traveler-icon.eot?cj10r#iefix') format('embedded-opentype'),
+  url('../fonts/traveler-icon.ttf?cj10r') format('truetype'),
+  url('../fonts/traveler-icon.woff?cj10r') format('woff'),
+  url('../fonts/traveler-icon.svg?cj10r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="stt-icon-"], [class*=" stt-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'traveler-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stt-icon-logoamarican-express .path1:before {
+  content: "\e900";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logoamarican-express .path2:before {
+  content: "\e901";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path3:before {
+  content: "\e902";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path4:before {
+  content: "\e903";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path5:before {
+  content: "\e904";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path6:before {
+  content: "\e905";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path7:before {
+  content: "\e906";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path8:before {
+  content: "\e907";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path9:before {
+  content: "\e908";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path10:before {
+  content: "\e909";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamarican-express .path11:before {
+  content: "\e90a";
+  margin-left: -1.5625em;
+  color: rgb(48, 111, 200);
+}
+.stt-icon-logoamazon .path1:before {
+  content: "\e90b";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logoamazon .path2:before {
+  content: "\e90c";
+  margin-left: -1.5625em;
+  color: rgb(255, 146, 1);
+}
+.stt-icon-logoamazon .path3:before {
+  content: "\e90d";
+  margin-left: -1.5625em;
+  color: rgb(255, 146, 1);
+}
+.stt-icon-logoamazon .path4:before {
+  content: "\e90e";
+  margin-left: -1.5625em;
+  color: rgb(37, 43, 64);
+}
+.stt-icon-logoamazon .path5:before {
+  content: "\e90f";
+  margin-left: -1.5625em;
+  color: rgb(37, 43, 64);
+}
+.stt-icon-logoamazon .path6:before {
+  content: "\e910";
+  margin-left: -1.5625em;
+  color: rgb(37, 43, 64);
+}
+.stt-icon-logoamazon .path7:before {
+  content: "\e911";
+  margin-left: -1.5625em;
+  color: rgb(37, 43, 64);
+}
+.stt-icon-logoamazon .path8:before {
+  content: "\e912";
+  margin-left: -1.5625em;
+  color: rgb(37, 43, 64);
+}
+.stt-icon-logoamazon .path9:before {
+  content: "\e913";
+  margin-left: -1.5625em;
+  color: rgb(37, 43, 64);
+}
+.stt-icon-logoamex .path1:before {
+  content: "\e914";
+  color: rgb(0, 111, 207);
+}
+.stt-icon-logoamex .path2:before {
+  content: "\e915";
+  margin-left: -1.5625em;
+  color: rgb(255, 255, 255);
+}
+.stt-icon-logoapple-pay .path1:before {
+  content: "\e916";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logoapple-pay .path2:before {
+  content: "\e917";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+}
+.stt-icon-logoapple-pay .path3:before {
+  content: "\e918";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+}
+.stt-icon-logoapple-pay .path4:before {
+  content: "\e919";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+}
+.stt-icon-logoapple-pay .path5:before {
+  content: "\e91a";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+}
+.stt-icon-logoapple-pay .path6:before {
+  content: "\e91b";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+}
+.stt-icon-logobitcoin .path1:before {
+  content: "\e91c";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logobitcoin .path2:before {
+  content: "\e91d";
+  margin-left: -1.5625em;
+  color: rgb(77, 77, 77);
+}
+.stt-icon-logobitcoin .path3:before {
+  content: "\e91e";
+  margin-left: -1.5625em;
+  color: rgb(247, 147, 26);
+}
+.stt-icon-logodiners-club .path1:before {
+  content: "\e91f";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logodiners-club .path2:before {
+  content: "\e920";
+  margin-left: -1.5625em;
+  color: rgb(0, 121, 190);
+}
+.stt-icon-logodiners-club .path3:before {
+  content: "\e921";
+  margin-left: -1.5625em;
+  color: rgb(0, 121, 190);
+}
+.stt-icon-logodiscover .path1:before {
+  content: "\e922";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logodiscover .path2:before {
+  content: "\e923";
+  margin-left: -1.5625em;
+  color: rgb(35, 31, 32);
+}
+.stt-icon-logodiscover .path3:before {
+  content: "\e924";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+}
+.stt-icon-logodiscover .path4:before {
+  content: "\e925";
+  margin-left: -1.5625em;
+  color: rgb(0, 0, 0);
+  opacity: 0.65;
+}
+.stt-icon-logodiscover .path5:before {
+  content: "\e926";
+  margin-left: -1.5625em;
+  color: rgb(35, 31, 32);
+}
+.stt-icon-logodiscover .path6:before {
+  content: "\e927";
+  margin-left: -1.5625em;
+  color: rgb(35, 31, 32);
+}
+.stt-icon-logodiscover .path7:before {
+  content: "\e928";
+  margin-left: -1.5625em;
+  color: rgb(244, 129, 32);
+}
+.stt-icon-logoEthereum .path1:before {
+  content: "\e929";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logoEthereum .path2:before {
+  content: "\e92a";
+  margin-left: -1.5625em;
+  color: rgb(52, 52, 52);
+}
+.stt-icon-logoEthereum .path3:before {
+  content: "\e92b";
+  margin-left: -1.5625em;
+  color: rgb(140, 140, 140);
+}
+.stt-icon-logoEthereum .path4:before {
+  content: "\e92c";
+  margin-left: -1.5625em;
+  color: rgb(60, 60, 59);
+}
+.stt-icon-logoEthereum .path5:before {
+  content: "\e92d";
+  margin-left: -1.5625em;
+  color: rgb(140, 140, 140);
+}
+.stt-icon-logoEthereum .path6:before {
+  content: "\e92e";
+  margin-left: -1.5625em;
+  color: rgb(20, 20, 20);
+}
+.stt-icon-logoEthereum .path7:before {
+  content: "\e92f";
+  margin-left: -1.5625em;
+  color: rgb(57, 57, 57);
+}
+.stt-icon-logogoogle-pay .path1:before {
+  content: "\e930";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logogoogle-pay .path2:before {
+  content: "\e931";
+  margin-left: -1.5625em;
+  color: rgb(95, 99, 104);
+}
+.stt-icon-logogoogle-pay .path3:before {
+  content: "\e932";
+  margin-left: -1.5625em;
+  color: rgb(66, 133, 244);
+}
+.stt-icon-logogoogle-pay .path4:before {
+  content: "\e933";
+  margin-left: -1.5625em;
+  color: rgb(52, 168, 83);
+}
+.stt-icon-logogoogle-pay .path5:before {
+  content: "\e934";
+  margin-left: -1.5625em;
+  color: rgb(251, 188, 4);
+}
+.stt-icon-logogoogle-pay .path6:before {
+  content: "\e935";
+  margin-left: -1.5625em;
+  color: rgb(234, 67, 53);
+}
+.stt-icon-logoJCB .path1:before {
+  content: "\e936";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logoJCB .path2:before {
+  content: "\e937";
+  margin-left: -1.5625em;
+  color: rgb(84, 178, 48);
+}
+.stt-icon-logoJCB .path3:before {
+  content: "\e938";
+  margin-left: -1.5625em;
+  color: rgb(0, 108, 185);
+}
+.stt-icon-logoJCB .path4:before {
+  content: "\e939";
+  margin-left: -1.5625em;
+  color: rgb(225, 2, 56);
+}
+.stt-icon-logoklarna .path1:before {
+  content: "\e93a";
+  color: rgb(255, 179, 199);
+}
+.stt-icon-logoklarna .path2:before {
+  content: "\e93b";
+  margin-left: -1.5625em;
+  color: rgb(10, 11, 9);
+}
+.stt-icon-logomaestro .path1:before {
+  content: "\e93c";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logomaestro .path2:before {
+  content: "\e93d";
+  margin-left: -1.5625em;
+  color: rgb(235, 0, 27);
+}
+.stt-icon-logomaestro .path3:before {
+  content: "\e93e";
+  margin-left: -1.5625em;
+  color: rgb(0, 162, 229);
+}
+.stt-icon-logomaestro .path4:before {
+  content: "\e93f";
+  margin-left: -1.5625em;
+  color: rgb(115, 117, 207);
+}
+.stt-icon-logomaster-card .path1:before {
+  content: "\e940";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logomaster-card .path2:before {
+  content: "\e941";
+  margin-left: -1.5625em;
+  color: rgb(237, 0, 6);
+}
+.stt-icon-logomaster-card .path3:before {
+  content: "\e942";
+  margin-left: -1.5625em;
+  color: rgb(249, 160, 0);
+}
+.stt-icon-logomaster-card .path4:before {
+  content: "\e943";
+  margin-left: -1.5625em;
+  color: rgb(255, 94, 0);
+}
+.stt-icon-logopaypal .path1:before {
+  content: "\e944";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logopaypal .path2:before {
+  content: "\e945";
+  margin-left: -1.5625em;
+  color: rgb(0, 48, 135);
+}
+.stt-icon-logopaypal .path3:before {
+  content: "\e946";
+  margin-left: -1.5625em;
+  color: rgb(48, 134, 200);
+}
+.stt-icon-logopaypal .path4:before {
+  content: "\e947";
+  margin-left: -1.5625em;
+  color: rgb(1, 33, 105);
+}
+.stt-icon-logopaypal2 .path1:before {
+  content: "\e948";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logopaypal2 .path2:before {
+  content: "\e949";
+  margin-left: -1.5625em;
+  color: rgb(0, 47, 135);
+}
+.stt-icon-logopaypal2 .path3:before {
+  content: "\e94a";
+  margin-left: -1.5625em;
+  color: rgb(0, 47, 135);
+}
+.stt-icon-logopaypal2 .path4:before {
+  content: "\e94b";
+  margin-left: -1.5625em;
+  color: rgb(0, 47, 135);
+}
+.stt-icon-logopaypal2 .path5:before {
+  content: "\e94c";
+  margin-left: -1.5625em;
+  color: rgb(0, 47, 135);
+}
+.stt-icon-logopaypal2 .path6:before {
+  content: "\e94d";
+  margin-left: -1.5625em;
+  color: rgb(0, 47, 135);
+}
+.stt-icon-logopaypal2 .path7:before {
+  content: "\e94e";
+  margin-left: -1.5625em;
+  color: rgb(0, 47, 135);
+}
+.stt-icon-logopaypal2 .path8:before {
+  content: "\e94f";
+  margin-left: -1.5625em;
+  color: rgb(1, 45, 134);
+  opacity: 0.68;
+}
+.stt-icon-logopaypal2 .path9:before {
+  content: "\e950";
+  margin-left: -1.5625em;
+  color: rgb(1, 45, 134);
+  opacity: 0.7;
+}
+.stt-icon-logopaypal2 .path10:before {
+  content: "\e951";
+  margin-left: -1.5625em;
+  color: rgb(1, 45, 134);
+}
+.stt-icon-logoshoppay .path1:before {
+  content: "\e952";
+  color: rgb(90, 49, 244);
+}
+.stt-icon-logoshoppay .path2:before {
+  content: "\e953";
+  margin-left: -1.5625em;
+  color: rgb(255, 255, 255);
+}
+.stt-icon-logoskrill .path1:before {
+  content: "\e954";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logoskrill .path2:before {
+  content: "\e955";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logoskrill .path3:before {
+  content: "\e956";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logoskrill .path4:before {
+  content: "\e957";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logoskrill .path5:before {
+  content: "\e958";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logoskrill .path6:before {
+  content: "\e959";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logoskrill .path7:before {
+  content: "\e95a";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logoskrill .path8:before {
+  content: "\e95b";
+  margin-left: -1.5625em;
+  color: rgb(134, 33, 101);
+}
+.stt-icon-logovisa .path1:before {
+  content: "\e95c";
+  color: rgb(247, 248, 250);
+}
+.stt-icon-logovisa .path2:before {
+  content: "\e95d";
+  margin-left: -1.5625em;
+  color: rgb(0, 87, 159);
+}
+.stt-icon-logovisa .path3:before {
+  content: "\e95e";
+  margin-left: -1.5625em;
+  color: rgb(0, 87, 159);
+}
+.stt-icon-logovisa .path4:before {
+  content: "\e95f";
+  margin-left: -1.5625em;
+  color: rgb(0, 87, 159);
+}
+.stt-icon-logovisa .path5:before {
+  content: "\e960";
+  margin-left: -1.5625em;
+  color: rgb(0, 87, 159);
+}
+.stt-icon-logovisa .path6:before {
+  content: "\e961";
+  margin-left: -1.5625em;
+  color: rgb(250, 166, 26);
+}
+.stt-icon-add:before {
+  content: "\e962";
+}
+.stt-icon-adult:before {
+  content: "\e963";
+}
+.stt-icon-area:before {
+  content: "\e964";
+}
+.stt-icon-arrow-down:before {
+  content: "\e965";
+}
+.stt-icon-arrow-left:before {
+  content: "\e966" !important;
+}
+.stt-icon-arrow-right-1:before {
+  content: "\e967";
+}
+.stt-icon-arrow-right:before {
+  content: "\e968" !important;
+}
+.stt-icon-arrow-up:before {
+  content: "\e969";
+}
+.stt-icon-automatic:before {
+  content: "\e96a";
+}
+.stt-icon-baby:before {
+  content: "\e96b";
+}
+.stt-icon-bag02:before {
+  content: "\e96c";
+}
+.stt-icon-baggage:before {
+  content: "\e96d";
+}
+.stt-icon-bathtub:before {
+  content: "\e96e";
+}
+.stt-icon-bed:before {
+  content: "\e96f";
+}
+.stt-icon-calendar:before {
+  content: "\e970";
+}
+.stt-icon-call-calling:before {
+  content: "\e971";
+}
+.stt-icon-car-door:before {
+  content: "\e972";
+}
+.stt-icon-category:before {
+  content: "\e973";
+}
+.stt-icon-check:before {
+  content: "\e974";
+}
+.stt-icon-clock:before {
+  content: "\e975";
+}
+.stt-icon-close:before {
+  content: "\e976";
+}
+.stt-icon-copy:before {
+  content: "\e977";
+}
+.stt-icon-eye:before {
+  content: "\e978";
+}
+.stt-icon-eye-slash:before {
+  content: "\e979";
+}
+.stt-icon-facebook:before {
+  content: "\e97a";
+}
+.stt-icon-filter:before {
+  content: "\e97b";
+}
+.stt-icon-footprint:before {
+  content: "\e97c";
+}
+.stt-icon-gallery:before {
+  content: "\e97d";
+}
+.stt-icon-google-plus:before {
+  content: "\e97e";
+}
+.stt-icon-heart1:before {
+  content: "\e97f";
+}
+.stt-icon-heart2:before {
+  content: "\e980";
+}
+.stt-icon-in:before {
+  content: "\e981";
+}
+.stt-icon-instagram:before {
+  content: "\e982";
+}
+.stt-icon-language:before {
+  content: "\e983";
+}
+.stt-icon-like:before {
+  content: "\e984";
+}
+.stt-icon-linkedin:before {
+  content: "\e985";
+}
+.stt-icon-list:before {
+  content: "\e986";
+}
+.stt-icon-location1:before {
+  content: "\e987";
+}
+.stt-icon-location2:before {
+  content: "\e988";
+}
+.stt-icon-manual:before {
+  content: "\e989";
+}
+.stt-icon-map:before {
+  content: "\e98a";
+}
+.stt-icon-menu:before {
+  content: "\e98b";
+}
+.stt-icon-messanger:before {
+  content: "\e98c";
+}
+.stt-icon-minus:before {
+  content: "\e98d";
+}
+.stt-icon-moon:before {
+  content: "\e98e";
+}
+.stt-icon-out:before {
+  content: "\e98f";
+}
+.stt-icon-pinterest:before {
+  content: "\e990";
+}
+.stt-icon-play:before {
+  content: "\e991";
+}
+.stt-icon-question:before {
+  content: "\e992";
+}
+.stt-icon-quote1:before {
+  content: "\e993";
+}
+.stt-icon-quote2:before {
+  content: "\e994";
+}
+.stt-icon-search-normal:before {
+  content: "\e995";
+}
+.stt-icon-share:before {
+  content: "\e996";
+}
+.stt-icon-sms:before {
+  content: "\e997";
+}
+.stt-icon-star1:before {
+  content: "\e998";
+}
+.stt-icon-star2:before {
+  content: "\e999";
+}
+.stt-icon-star-half:before {
+  content: "\e99a";
+}
+.stt-icon-sun:before {
+  content: "\e99b";
+}
+.stt-icon-tag:before {
+  content: "\e99c";
+}
+.stt-icon-twitter:before {
+  content: "\e99d";
+}
+.stt-icon-user1:before {
+  content: "\e99e";
+}
+.stt-icon-user2:before {
+  content: "\e99f";
+}
+.stt-icon-user3:before {
+  content: "\e9a0";
+}
+.stt-icon-vimeo:before {
+  content: "\e9a1";
+}
+.stt-icon-youtube:before {
+  content: "\e9a2";
+}

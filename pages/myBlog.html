@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/Userstyle.css" />
+    <title>User Setting</title>
+  </head>
+  <body>
+    <main class="d-flex flex-nowrap">
+      <div
+        class="sidebarpage position-relative d-flex flex-column flex-shrink-0 p-3 bg-black bg-opacity-75"
+      >
+        <div class="headBar d-flex align-items-center">
+          <span class="icon-side-bar">
+            <i
+              class="fa-solid fa-angle-left fa-lg close-bar-icon"
+              style="color: #f4f7fa"
+            ></i>
+          </span>
+          <a
+            href="../index.html"
+            class="top d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+          >
+            <span class="logo-img d-flex flex-nowrap">
+              <img src="../assits/Color-2.svg" class="icon-bar" alt="" />
+              <img src="../assits/logo.png" class="logo" alt="" />
+            </span>
+          </a>
+        </div>
+        <hr class="text-white" />
+        <div class="bodyBar">
+          <div class="user-data d-flex align-items-center">
+            <div
+              class="user-icon bg-primary rounded-5 d-flex align-items-center justify-content-center bg-opacity-50"
+              style="width: 40px; height: 40px"
+            >
+              <i class="fa-solid fa-user fa-lg" style="color: #f0f2f5"></i>
+            </div>
+            <p class="ps-3 fs-6 fw-bold text-light sidebar-text">User Name</p>
+          </div>
+          <hr class="text-white" />
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a href="user.html" class="nav-link  text-white">
+                <i
+                  class="fa-solid fa-gear fa-lg me-2 pages-icon"
+                  style="color: #e3e3e3"
+                ></i>
+                <span class="sidebar-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link" aria-current="page">
+                <i
+                  class="fa-solid fa-house fa-lg me-2 pages-icon"
+                  style="color: #e3e3e3"
+                ></i>
+                <span class="sidebar-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="mainBlog.html" class="nav-link text-white">
+                <i
+                  class="fa-solid fa-newspaper fa-lg me-2 pages-icon"
+                  style="color: #e3e3e3"
+                ></i>
+                <span class="sidebar-text">Blogs</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active text-white">
+                <i
+                  class="fa-solid fa-comment fa-lg me-2 pages-icon"
+                  style="color: #e3e3e3"
+                ></i>
+                <span class="sidebar-text">My Comments</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="Signin.html" class="nav-link text-white">
+                <i
+                  class="fa-solid fa-right-from-bracket fa-lg me-2 pages-icon"
+                  style="color: #e3e3e3"
+                ></i>
+                <span class="sidebar-text">Log Out</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="spaceDiv"></div>
+      <section class="User-Setting w-100">
+        <div class="container ms-0">
+          <h1 class="my-3">My Comments</h1>
+          <div class="userBlogs bg-white rounded-1 w-100">
+            <nav class="navbar bg-body-tertiary">
+              <div
+                class="container-fluid align-items-center justify-content-center justify-content-md-between"
+              >
+                <a class="navbar-brand fs-4 fw-bold mb-1 mb-md-0">My Comments</a>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search by Place title"
+                    aria-label="Search"
+                    id="searchInput"
+                  />
+               
+                </form>
+              </div>
+            </nav>
+            <hr class="mx-5" />
+            <div class="userComments py-3">
+              <ul class="row userComment me-3">
+          
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/UserBlog.js"></script>
+  </body>
+</html>

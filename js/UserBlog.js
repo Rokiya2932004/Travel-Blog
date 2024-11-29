@@ -107,6 +107,7 @@ function displayComments() {
         </div>
       </li>
     `;
+    console.log(comment.PageURL);
     commentList.innerHTML += commentItem; 
   });
 }
